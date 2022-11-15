@@ -17,7 +17,7 @@ export class PaisInputComponent implements OnInit {
 
   debouncer: Subject<string> = new Subject();       //Crea un observable manualmente
 
-  termino: string = ''
+  termino: string = 'Arg'
 
   constructor(private paisService: PaisService) { }
 
