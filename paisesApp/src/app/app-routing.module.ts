@@ -11,6 +11,7 @@ const routes: Routes = [
   {path: 'region', component: PorRegionComponent},
   {path: 'capital', component: PorCapitalComponent},
   {path: 'pais/:id', component: VerPaisComponent},
+  {path: 'capital/:id', component: VerPaisComponent},
   {path: '**', redirectTo: ''}                                // Si la ruta es cualquier otra me manda a la ruta vacia
 ];
 

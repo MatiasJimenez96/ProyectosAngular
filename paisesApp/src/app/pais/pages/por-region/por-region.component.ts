@@ -30,7 +30,4 @@ export class PorRegionComponent implements OnInit {
         this.paises = paises
       })
   }
-
-
-
 }

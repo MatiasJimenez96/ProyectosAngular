@@ -5,8 +5,7 @@ import { PaisService } from '../../services/pais.service';
 
 @Component({
   selector: 'app-pais-input',
-  templateUrl: './pais-input.component.html',
-  styleUrls: ['./pais-input.component.css']
+  templateUrl: './pais-input.component.html'
 })
 export class PaisInputComponent implements OnInit {
 
@@ -19,7 +18,7 @@ export class PaisInputComponent implements OnInit {
 
   termino: string = ''
 
-  constructor(private paisService: PaisService) { }
+  constructor() { }
 
   ngOnInit(): void {
     this.debouncer

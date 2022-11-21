@@ -1,9 +1,9 @@
 <div class="animate__animated animate__fadeIn animate__faster">
     <h3>Buscar por region <small> {{ regionActiva }}</small></h3>
     <hr>
-    
+
     <h5>Seleccione la region</h5>
-    
+
     <div class="row">
         <div class="col">
             <!-- [class.btn-primary]="region == regionActiva" -->
@@ -13,13 +13,12 @@
             }" -->
             <button *ngFor="let region of regiones"
                     [class]=" getClaseCSS(region) "
-                    (click)="activarRegion(region)"> 
+                    (click)="activarRegion(region)">
                 {{ region }}
             </button>
         </div>
     </div>
 </div>
-
 
 <div class="row" *ngIf="paises.length">
     <div class="col">

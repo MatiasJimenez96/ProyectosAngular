@@ -26,7 +26,6 @@ export class PorCapitalComponent implements OnInit {
     this.termino = termino;
     console.log(this.termino);
     this.paisService.buscarCapital(this.termino).subscribe((paises) => {
-      console.log(paises);
       this.paises = paises;
     },
       (error) => {
