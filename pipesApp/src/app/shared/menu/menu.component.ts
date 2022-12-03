@@ -10,6 +10,8 @@ export class MenuComponent {
 
   items: MenuItem[] = [];
 
+  nombre: string = '';
+
   constructor() { }
 
   ngOnInit() {
